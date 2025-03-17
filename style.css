@@ -1,0 +1,81 @@
+.hero {
+    background-image: url('assets/pattern-light-bg.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 10%;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-logo {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #b97a57, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    border: 2px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: black;
+    color: white;
+}
+
+.hero-stats {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.hero-stats img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
