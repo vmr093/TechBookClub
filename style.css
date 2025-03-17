@@ -37,8 +37,8 @@
 }
 
 .hero-logo {
-    width: 50px;
-    margin-bottom: 10px;
+    width: 100px;
+    margin-bottom: 5px;
 }
 
 .hero-text h1 {
@@ -152,4 +152,132 @@
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     margin-top: 15px;
+}
+
+.not-average {
+    padding: 100px 10%;
+    position: relative;
+}
+
+.not-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.not-text {
+    max-width: 50%;
+}
+
+.not-text h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.highlight {
+    background: url('assets/pattern-circle.png') no-repeat center;
+    background-size: contain;
+    background-color: #FAF5F3;
+    mix-blend-mode: multiply;
+    padding: 5px;
+    display: inline-block;
+}
+
+.not-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.icons img {
+    width: 100px;
+    height: 100px;
+}
+
+.not-image img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.reading-journey {
+    background: linear-gradient(rgba(250, 245, 243, 0.9), rgba(250, 245, 243, 0.9)), 
+                url('assets/pattern-light-bg.svg') no-repeat center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    padding: 90px 10%;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.journey-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.journey-container h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.journey-steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 180px;
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.journey-arrow {
+    width: 50px;
+}
+
+.journey-glow {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(99, 165, 255, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: 1;
 }
