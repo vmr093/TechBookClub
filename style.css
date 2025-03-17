@@ -2,7 +2,11 @@
     background-image: url('assets/pattern-light-bg.svg');
     background-size: cover;
     background-position: center;
+    background-color: #FAF5F3;
+    mix-blend-mode: multiply;
     padding: 80px 10%;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-container {
@@ -53,7 +57,7 @@
     border: 2px solid black;
     font-size: 16px;
     cursor: pointer;
-    background: transparent;
+    background: #FAF5F3;
     transition: 0.3s;
 }
 
@@ -78,4 +82,15 @@
     width: 450px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-pattern-glow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-image: url('assets/pattern-glow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
