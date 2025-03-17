@@ -14,7 +14,7 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 80vh;
     background-image: url('assets/pattern-light-bg.svg');
     background-size: cover;
     background-position: center;
