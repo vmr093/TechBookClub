@@ -110,3 +110,46 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.read-together {
+    padding: 100px 10%;
+}
+
+.read-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.read-image img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.read-text {
+    max-width: 50%;
+}
+
+.read-text h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.read-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.read-text li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
