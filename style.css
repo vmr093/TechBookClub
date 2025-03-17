@@ -19,7 +19,7 @@
     background-position: center;
     background-color: #FAF5F3;
     mix-blend-mode: multiply;
-    padding: 80px 10%;
+    padding: 120px 10%;
     position: relative;
     overflow: hidden;
 }
@@ -112,7 +112,7 @@
 }
 
 .read-together {
-    padding: 100px 10%;
+    padding: 120px 10%;
 }
 
 .read-container {
@@ -155,7 +155,7 @@
 }
 
 .not-average {
-    padding: 100px 10%;
+    padding: 120px 10%;
     position: relative;
 }
 
