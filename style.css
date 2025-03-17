@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter/static/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martian Mono';
+    src: url('fonts/martian-mono/MartianMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .hero {
     background-image: url('assets/pattern-light-bg.svg');
     background-size: cover;
@@ -22,7 +37,7 @@
 }
 
 .hero-logo {
-    width: 40px;
+    width: 50px;
     margin-bottom: 10px;
 }
 
@@ -45,8 +60,9 @@
 
 .hero-text p {
     font-size: 18px;
-    color: #333;
+    color: #385159;
     margin-top: 20px;
+    font-family: 'inter', sans-serif;
 }
 
 .cta-btn {
@@ -57,13 +73,13 @@
     border: 2px solid black;
     font-size: 16px;
     cursor: pointer;
-    background: #FAF5F3;
+    background: FFF5EF;
     transition: 0.3s;
 }
 
 .cta-btn:hover {
     background: black;
-    color: white;
+    color: #FFF5EF;
 }
 
 .hero-stats {
