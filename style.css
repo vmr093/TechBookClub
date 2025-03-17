@@ -281,3 +281,240 @@
     background: radial-gradient(circle, rgba(99, 165, 255, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
     z-index: 1;
 }
+
+.membership {
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.membership-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.membership-container h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.plan {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    width: 30%;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    border: 1.5px solid #eaeaea;
+    transition: transform 0.3s ease;
+}
+
+/* Make the Pro Plan slightly larger */
+.pro-plan {
+    width: 34%;
+    background: linear-gradient(rgba(230, 245, 255, 0.6), rgba(255, 255, 255, 0.9));
+    border: 2px solid rgba(99, 165, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.plan h3 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.plan ul li img {
+    width: 18px;
+}
+
+.subscribe-btn {
+    background: #FAF5F3;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.subscribe-btn span {
+    font-weight: bold;
+}
+
+.talk-btn {
+    background: #FAF5F3;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.stars {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+blockquote {
+    font-family: 'Martian Mono', monospace;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.testimonial-author {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.footer {
+    background: url('assets/pattern-dark-bg.svg') no-repeat center, #0D1B2A;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 10%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-container h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-cta-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.footer-cta-btn img {
+    width: 16px;
+}
+
+
+.footer-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.footer-stats img {
+    width: 120px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 25px;
+    cursor: pointer;
+}
+
+/* Fix Footer Overlap */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
