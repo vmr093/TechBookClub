@@ -519,3 +519,214 @@ body {
 .footer {
     margin-top: auto;
 }
+
+/* Base Styles - Already Provided in Your Code */
+
+/* Mobile & Tablet Responsiveness */
+@media (max-width: 1024px) {
+    .hero {
+        padding: 80px 5%;
+        text-align: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .read-container,
+    .not-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .read-text, 
+    .not-text {
+        max-width: 100%;
+    }
+
+    .read-image img,
+    .not-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .journey-steps {
+        flex-direction: column;
+    }
+
+    .plans {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .plan, 
+    .pro-plan {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 60px 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .read-container, 
+    .not-container {
+        flex-direction: column;
+    }
+
+    .read-text h2, 
+    .not-text h2 {
+        font-size: 28px;
+    }
+
+    .read-image img, 
+    .not-image img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .membership-container h2, 
+    .journey-container h2 {
+        font-size: 28px;
+    }
+
+    .journey-steps {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plan, 
+    .pro-plan {
+        width: 100%;
+    }
+
+    .testimonial-container blockquote {
+        font-size: 18px;
+    }
+
+    .footer-container h2 {
+        font-size: 28px;
+    }
+
+    .footer-cta-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 50px 5%;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .read-text h2, 
+    .not-text h2 {
+        font-size: 24px;
+    }
+
+    .read-image img, 
+    .not-image img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .membership-container h2, 
+    .journey-container h2 {
+        font-size: 24px;
+    }
+
+    .plan, 
+    .pro-plan {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .testimonial-container blockquote {
+        font-size: 16px;
+    }
+
+    .footer-container h2 {
+        font-size: 24px;
+    }
+
+    .footer-cta-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
